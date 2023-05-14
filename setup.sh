@@ -26,8 +26,8 @@ fi
 
 # Create SSH directory for user
 if id "$username" >/dev/null 2>&1; then
-   mkdir -p /home/$username
-   chown=$username:$username /home/$username
+   mkdir -p /home/$username/.ssh
+   chown -R username:$username /home/$username/.ssh
    echo "SSH directory for $username created."
 else
    echo "Unable to create SSH directory for $username. Does not exist."
