@@ -24,10 +24,11 @@ else
    echo "User $username has been created and added to the sudo group."
 fi
 
-# Transfer SSH keys if the user exists
+# Create SSH directory for user
 if id "$username" >/dev/null 2>&1; then
-   rsync --archive --chown=$username:$username ~/.ssh /home/$username
-   echo "SSH keys transferred to user $username."
+   mkdir -p /home/$username
+   chown=$username:$username /home/$username
+   echo "SSH directory for $username created."
 else
-   echo "Unable to transfer SSH keys. User $username does not exist."
+   echo "Unable to create SSH directory for $username. Does not exist."
 fi
