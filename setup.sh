@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Set up newly created machine.
+apt update
 
 username=$1
 
