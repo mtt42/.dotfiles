@@ -21,3 +21,4 @@ export PYENV_ROOT="$HOME/.pyenv"
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
 
+. "$HOME/.cargo/env"
