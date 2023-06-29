@@ -103,6 +103,5 @@ alias lg=lazygit
 # Scripts
 alias tmx="$HOME/scripts/tmuxit"
 
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
+
