@@ -18,6 +18,5 @@ export TERM="xterm-256color"
 
 export PYENV_ROOT="$HOME/.pyenv"
 
-eval "$(starship init zsh)"
 
 . "$HOME/.cargo/env"

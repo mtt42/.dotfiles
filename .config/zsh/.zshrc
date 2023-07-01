@@ -105,5 +105,7 @@ alias lv=lvim
 # Scripts
 alias tmx="$HOME/scripts/tmuxit"
 
+# Init
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 eval "$(starship init zsh)"
 
