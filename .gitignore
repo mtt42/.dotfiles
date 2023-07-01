@@ -1,2 +1,8 @@
 .zcompdump
 .config/op/
+.config/cni/
+.config/containers/
+.config/htop/
+.config/lazygit/
+.config/systemd/
+.config/tmux/plugins/tmux-nova/
