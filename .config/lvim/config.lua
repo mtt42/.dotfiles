@@ -23,7 +23,7 @@ vim.api.nvim_create_autocmd({ "BufEnter", "CursorHold", "CursorHoldI", "FocusGai
 lvim.log.level = "warn"
 lvim.format_on_save.enabled = false
 lvim.colorscheme = "nord"
-lvim.transparent_window = false
+lvim.transparent_window = true
 vim.opt.relativenumber = false
 -- vim.opt.colorcolumn = "80"
 vim.opt.cursorcolumn = true

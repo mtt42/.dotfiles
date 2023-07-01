@@ -71,6 +71,7 @@ alias lsi='ls -lhi'
 alias lsd='ls -dalG */' 
 alias lsf='ls -laF | grep -v '/''
 alias file='file -h'
+alias take='mkdir -p $1 && cd $1'
 
 # Actions
 # confirm before overwriting something
@@ -99,6 +100,7 @@ alias zshrc=" $EDITOR $ZDOTDIR/.zshrc; source $ZDOTDIR/.zshrc"
 
 # Apps
 alias lg=lazygit
+alias lv=lvim
 
 # Scripts
 alias tmx="$HOME/scripts/tmuxit"
