@@ -189,6 +189,7 @@ lvim.plugins = {
        "MunifTanjim/nui.nvim",
        "guysherman/pg.nvim",
        "hashivim/vim-terraform",
+       "github/copilot.vim",
      },
  }
 
