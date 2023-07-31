@@ -6,3 +6,4 @@
 .config/lazygit/
 .config/systemd/
 .config/tmux/plugins/tmux-nova/
+.config/github-copilot/
