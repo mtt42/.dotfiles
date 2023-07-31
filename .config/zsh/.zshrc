@@ -27,6 +27,11 @@ wp() {
   dig +short txt ${1}.wp.dg.cx 
 }
 
+tmuxit() {
+  /scripts/tmuxit
+}
+
+bindkey '^[z' tmuxit
 
 #######################################
 # SETTINGS 
