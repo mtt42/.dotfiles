@@ -3,3 +3,5 @@
 	name = mtt42
 [core]
 	excludesfile = /home/mtt42/.gitignore_global
+[init]
+	defaultBranch = main
